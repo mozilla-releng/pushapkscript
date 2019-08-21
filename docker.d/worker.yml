@@ -49,6 +49,7 @@ products:
               service_account: dummy
               package_names:
                 - "org.mozilla.fennec_aurora"
+                - "org.mozilla.firefox_beta"
               google_credentials_file: { "$eval": "GOOGLE_CREDENTIALS_FIREFOX_DEP_PATH" }
               certificate_alias: dep
 
